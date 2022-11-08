@@ -20,7 +20,7 @@ import com.ap.ap.models.Proyectos;
 import com.ap.ap.services.ProyectosService;
 
 @RestController
-@RequestMapping("/proyectos")
+@RequestMapping("/api/proyectos")
 public class ProyectosController {
 
     private final ProyectosService proyectosService;

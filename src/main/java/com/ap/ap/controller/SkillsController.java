@@ -20,7 +20,7 @@ import com.ap.ap.models.Skills;
 import com.ap.ap.services.SkillsService;
 
 @RestController
-@RequestMapping("/skills")
+@RequestMapping("/api/skills")
 public class SkillsController {
 
     private final SkillsService skillsService;

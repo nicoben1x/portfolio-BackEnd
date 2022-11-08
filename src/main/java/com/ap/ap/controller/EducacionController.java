@@ -20,7 +20,7 @@ import com.ap.ap.models.Educacion;
 import com.ap.ap.services.EducacionService;
 
 @RestController
-@RequestMapping("/educacion")
+@RequestMapping("/api/educacion")
 public class EducacionController {
 
     private final EducacionService educacionService;

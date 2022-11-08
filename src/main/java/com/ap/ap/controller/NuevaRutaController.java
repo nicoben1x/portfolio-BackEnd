@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class NuevaRutaController {
 
-    @RequestMapping("/madre")
+    @RequestMapping("/api/madre")
     @ResponseBody
     String error(HttpServletRequest request) {
         return "<h1>Madre Mia Willy</h1>";

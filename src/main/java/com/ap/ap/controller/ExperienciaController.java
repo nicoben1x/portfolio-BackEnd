@@ -20,7 +20,7 @@ import com.ap.ap.models.Experiencia;
 import com.ap.ap.services.ExperienciaService;
 
 @RestController
-@RequestMapping("/experiencia")
+@RequestMapping("/api/experiencia")
 public class ExperienciaController {
 
     private final ExperienciaService experienciaService;
