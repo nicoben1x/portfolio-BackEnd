@@ -15,7 +15,7 @@ import com.ap.ap.models.Usuariop;
 import com.ap.ap.services.UsuariopService;
 
 @RestController
-@RequestMapping("/api/usuario")
+@RequestMapping("api/usuario")
 public class UsuariopController {
 
     private final UsuariopService usuarioService;
